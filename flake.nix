@@ -22,7 +22,7 @@
           url = meta.url;
           sha256 = meta.sha256;
         });
-        dontFixup = true;
+        dontStrip = true;
         version = meta.version;
         meta.mainProgram = "code-insiders";
       });
